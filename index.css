@@ -1,0 +1,40 @@
+@import "compass/css3";
+
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('tree_html\CascadiaCodePL.ttf') format('truetype');
+}
+
+body {
+    font-family: sans-serif;
+    margin: 1rem;
+    text-align: center;
+    height: 100vh;
+    background: #00B285;
+    color: #FFF;
+}
+
+textarea{  
+    display: block;
+    box-sizing: padding-box;
+    overflow: hidden;
+  
+    padding: 10px;
+    width: 250px;
+    font-size: 14px;
+    margin: 1rem auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(black, .3);
+    border: 0;
+    
+    &:focus{
+      border: none;
+      outline: none;
+    }
+}
+  
+.result {
+    font-family: 'Cascadia Code';
+    text-align: center;
+}
