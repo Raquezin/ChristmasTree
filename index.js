@@ -2,7 +2,17 @@ function createChristmasTree(ornaments, height) {
     let result = ''
     let finalOrnaments = ''
     let aux = null
-    
+
+    if (typeof parseInt(height) !== 'number') {
+        return ''
+    } else if (height <= 0) {
+        return "La altura debe ser mayor que zero"
+    } else if (ornaments === '') {
+        return "Los adornos no pueden estar vacios"
+    }
+
+    ornaments = ornaments.split(' ').join('').split('\n').join('')
+
     for (let i=1; i<=height; i++) {
         aux += i
     }
