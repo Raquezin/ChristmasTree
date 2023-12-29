@@ -8,14 +8,23 @@
     </head>
     <body>
         <script src="index.js"></script>
-        <div class="selector">
+        <div class="center">
             <h1>Generador de Árboles de Navidad</h1>
-            <textarea id="ornaments" class='autoExpand result' rows='2' data-min-rows='2' placeholder='Adornos del árbol (Ejemplo: *+#)' autofocus></textarea><br>
-            <label for="height" class="result">Altura del Árbol:</label><br>
-            <input type="number" id="height" placeholder="Altura del árbol" class="result"><br>
-
-            <button onclick="generateTree()" class="result">Generar Árbol</button><br>
+        </div>
+        <div class="center">
+            <textarea id="ornaments" class='autoExpand' rows='2' data-min-rows='2' placeholder='Adornos del árbol (Ejemplo: *+#)' autofocus></textarea><br>
+        </div>
+        <div class="center morefontsize">
+            <label for="height" >Altura del Árbol:</label><br>
+        </div>
+        <div class="center">
+            <input type="number" id="height" placeholder="Altura del árbol" class="result redondo btn btn-intermediate"><br>
+            <button onclick="generateTree()" class="result redondo btn btn-intermediate">Generar Árbol</button><br>
+        </div>
+        <div class="center">
             <h2 class="result">Resultado:</h2>
+        </div>
+        <div class="center">
             <pre id="result" class="result"></pre>
         </div>
     </body>
