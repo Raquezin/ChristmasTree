@@ -1,6 +1,7 @@
 # Christmas Tree Generator
 
-[Basado en adventjs 2023 día 10](https://adventjs.dev/es/challenges/2023/10)
+**Una iniciativa de midudev**
+[Basado en el reto del adventjs 2023 día 10](https://adventjs.dev/es/challenges/2023/10)
 
 ### Créditos
 
