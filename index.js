@@ -9,7 +9,10 @@ function createChristmasTree(ornaments, height) {
         return "La altura debe ser mayor que zero"
     } else if (ornaments === '') {
         return "Los adornos no pueden estar vacios"
+    } else if (height >= 40) {
+        height = 40
     }
+
 
     ornaments = ornaments.split(' ').join('').split('\n').join('')
 
